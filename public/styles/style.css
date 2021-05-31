@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background: #eee;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-decoration: overline 5px black;
+    font-size: 3em;
+}
+main{
+    display: flex;
+}
+.sec{
+    text-align: center;
+    width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px black;
+    padding: 10px;
+    margin:  20px auto;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    margin:auto;
+    border: 2px solid black;
+}
+p{
+    font-size: 1.4em;
+}
