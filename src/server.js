@@ -8,4 +8,4 @@ app.use(express.static('public'))
 
 app.use(rotas)
 
-app.listen(80);
+app.listen(process.env.PORT || 3000);
